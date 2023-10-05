@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Document</title>
+</head>
+<body>
+   <form name="calc.">
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" class="display" name="display" value=""disabled>
+            </td>
+
+            <!-- 1段目のボタン群 -->
+            <tr>
+                <td><input type="button" value="1" onclick="get_calc(this)"></td>
+                <td><input type="button" value="2" onclick="get_calc(this)"></td>
+                <td><input type="button" value="3" onclick="get_calc(this)"></td>
+                <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
+            </tr>
+            <!-- 2段目のボタン群 -->
+            <tr>
+                <td><input type="button" value="4" onclick="get_calc(this)"></td>
+                <td><input type="button" value="5" onclick="get_calc(this)"></td>
+                <td><input type="button" value="6" onclick="get_calc(this)"></td>
+                <td><input type="button" value="-" class="operator" onclick="get_calc(this)"></td>
+            </tr>
+            <!-- 3段目のボタン群 -->
+            <tr>
+                <td><input type="button" value="7" onclick="get_calc(this)"></td>
+                <td><input type="button" value="8" onclick="get_calc(this)"></td>
+                <td><input type="button" value="9" onclick="get_calc(this)"></td>
+                <td><input type="button" value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
+            </tr>
+            <!-- 4段目のボタン群 -->
+            <tr>
+                <td><input type="button" value="＝" class="equal" onclick="get_calc(this)"></td>
+                <td><input type="button" value="0" onclick="get_calc(this)"></td>
+                <td><input type="button" value="C" onclick="get_calc(this)"></td>
+                <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+            </tr>
+        </tr>
+    </table>
+
+   </form> 
+    
+</body>
+</html>
+

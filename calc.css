@@ -1,0 +1,47 @@
+/* テーブルの装飾 */
+table{
+    /* 電卓のサイズ */
+    width: 600px;
+    height: 800px;
+
+    /* 電卓が浮き出るように影をつける */
+    border: solid 2px #dcdcdc42;
+    border-right: solid 4px #dcdcdc42;
+    border-bottom: solid 4px #dcdcdc42;
+    border-radius: 10px;
+
+    /* インライン要素を中央に配置 */
+    text-align: center;
+
+    /* 余白調整 */
+    padding: 8px;
+    margin: 20px;
+}
+
+input{
+    /* ボタンのサイズ */
+    width: 70px;
+    height: 70px;
+
+    /* ボタンの文字サイズ */
+    font-size: x-large;
+
+    /* 数字部分の背景色 */
+    background-color: aqua;
+
+    /* 牡丹の詳細設定 */
+    border: none;
+    border-radius: 20px;
+
+    /* クリック時の黒枠を消す */
+    outline: none;
+
+}
+
+/* ディスプレイの詳細設定 */
+.display{
+    width: 250px;
+    text-align: right;
+
+/*  */
+}
