@@ -1,8 +1,8 @@
 <script>
-    function get_calc(btn) {
+    function get_calc(btn){
         if(btn.value =="="){
-            document.calc.display.value = eval(document.dentaku.display.value);
-        }else if(btn.value=="C"){
+            document.calc.display.value = eval(document.calc.display.value);
+        }else if(btn.value == "C"){
             document.calc.display.value="";
         }else{
             if(btn.value == "x"){
