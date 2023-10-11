@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calc.css">
-    <script src="calc-copy.js"></script>
+    <script src="calc.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -17,38 +17,38 @@
 
             <!-- 1段目のボタン群 -->
             <tr>
-                <td><input type="button" value="7" onclick="get_calc(this)"></td>
-                <td><input type="button" value="8" onclick="get_calc(this)"></td>
-                <td><input type="button" value="9" onclick="get_calc(this)"></td>
-                <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="7" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="8" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="9" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="+" class="operator" onclick="get_calc(this)"></td>
             </tr>
             <!-- 2段目のボタン群 -->
             <tr>
-                <td><input type="button" value="4" onclick="get_calc(this)"></td>
-                <td><input type="button" value="5" onclick="get_calc(this)"></td>
-                <td><input type="button" value="6" onclick="get_calc(this)"></td>
-                <td><input type="button" value="-" class="operator" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="4" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="5" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="6" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="-" class="operator" onclick="get_calc(this)"></td>
             </tr>
             <!-- 3段目のボタン群 -->
             <tr>
-                <td><input type="button" value="1" onclick="get_calc(this)"></td>
-                <td><input type="button" value="2" onclick="get_calc(this)"></td>
-                <td><input type="button" value="3" onclick="get_calc(this)"></td>
-                <td><input type="button" value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="1" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="2" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="3" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
             </tr>
             <!-- 4段目のボタン群 -->
             <tr>
-                <td><input type="button" value="0"  onclick="get_calc(this)"></td>
-                <td><input type="button" value="00" onclick="get_calc(this)"></td>
-                <td><input type="button" value="." onclick="get_calc(this)"></td>
-                <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="0"  onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="00" onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="." onclick="get_calc(this)"></td>
+                <td><input type="button" id="click"  value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="button" value="AC" class="AC" onclick="get_calc(this)">
+                    <input type="button" id="click"  value="AC" class="AC" onclick="get_calc(this)">
                 </td>
                 <td colspan="2">
-                    <input type="button" value="=" class="equal" onclick="get_calc(this)">
+                    <input type="button" id="click"  value="=" class="equal" onclick="get_calc(this)">
                 </td>
                 
             </tr>
