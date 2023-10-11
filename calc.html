@@ -17,9 +17,9 @@
 
             <!-- 1段目のボタン群 -->
             <tr>
-                <td><input type="button" value="1" onclick="get_calc(this)"></td>
-                <td><input type="button" value="2" onclick="get_calc(this)"></td>
-                <td><input type="button" value="3" onclick="get_calc(this)"></td>
+                <td><input type="button" value="7" onclick="get_calc(this)"></td>
+                <td><input type="button" value="8" onclick="get_calc(this)"></td>
+                <td><input type="button" value="9" onclick="get_calc(this)"></td>
                 <td><input type="button" value="+" class="operator" onclick="get_calc(this)"></td>
             </tr>
             <!-- 2段目のボタン群 -->
@@ -31,17 +31,26 @@
             </tr>
             <!-- 3段目のボタン群 -->
             <tr>
-                <td><input type="button" value="7" onclick="get_calc(this)"></td>
-                <td><input type="button" value="8" onclick="get_calc(this)"></td>
-                <td><input type="button" value="9" onclick="get_calc(this)"></td>
+                <td><input type="button" value="1" onclick="get_calc(this)"></td>
+                <td><input type="button" value="2" onclick="get_calc(this)"></td>
+                <td><input type="button" value="3" onclick="get_calc(this)"></td>
                 <td><input type="button" value="×" class="operator" name="multi_btn" onclick="get_calc(this)"></td>
             </tr>
             <!-- 4段目のボタン群 -->
             <tr>
-                <td><input type="button" value="=" class="equal" onclick="get_calc(this)"></td>
-                <td><input type="button" value="0" onclick="get_calc(this)"></td>
-                <td><input type="button" value="C" onclick="get_calc(this)"></td>
+                <td><input type="button" value="0"  onclick="get_calc(this)"></td>
+                <td><input type="button" value="00" onclick="get_calc(this)"></td>
+                <td><input type="button" value="." onclick="get_calc(this)"></td>
                 <td><input type="button" value="÷" class="operator" name="div_btn" onclick="get_calc(this)"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="AC" class="operator" onclick="get_calc(this)">
+                </td>
+                <td colspan="2">
+                    <input type="button" value="=" class="equal" onclick="get_calc(this)">
+                </td>
+                
             </tr>
         </tr>
     </table>
