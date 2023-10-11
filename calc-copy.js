@@ -5,7 +5,7 @@
         }else if(btn.value == "C"){
             document.calc.display.value="";
         }else{
-            if(btn.value == "x"){
+            if(btn.value == "×"){
                 btn.value ="*";
             }else if(btn.value =="÷"){
                 btn.value="/";
