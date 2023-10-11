@@ -1,4 +1,4 @@
-<script>
+
     function get_calc(btn){
         if(btn.value == "=" ){
             document.calc.display.value = eval(document.calc.display.value);
@@ -16,4 +16,3 @@
         }
         
     }
-</script>
