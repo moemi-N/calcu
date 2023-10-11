@@ -25,7 +25,7 @@ input{
     height: 100px;
 
     /* ボタンの文字サイズ */
-    font-size: xx-large;
+    font-size: 50px;
 
     /* 数字部分の背景色 */
     background-color: #CCFFFF;
@@ -56,6 +56,12 @@ input{
 .equal{
     background-color: #304258;
     color: white;
+    width: 200px;
+}
+.AC{
+    background-color: #7b56f7;
+    color: white;
+    width: 200px;
 }
 /* カーソルを載せたときに色を変更 */
 input:hover{
