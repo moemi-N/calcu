@@ -1,5 +1,6 @@
 
-    function get_calc(btn){
+// scriptタグは必要ない！！！！
+function get_calc(btn){
         if(btn.value == "=" ){
             document.calc.display.value = eval(document.calc.display.value);
         }else if(btn.value == "C"){

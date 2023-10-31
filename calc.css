@@ -72,7 +72,7 @@ input:hover{
     background: #d9966a;
 }
 
-/* クリック時に色を濃くする */
+/* クリック時の色を濃くする */
 input:active{
     background: #1ca58a;
 }
